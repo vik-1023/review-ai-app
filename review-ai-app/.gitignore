@@ -1,0 +1,47 @@
+# Maven
+target/
+
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE files
+.idea/
+*.iml
+.settings/
+.classpath
+.project
+
+# Maven Wrapper (keep these)
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Local Maven repository (usually not inside project)
+.m2/
+
+# Logs
+*.log
+logs/
+
+# Application properties with secrets
+application-prod.properties
+application-dev.properties
+application-qa.properties
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.swp
+*~
+
+# Test reports
+target/surefire-reports/
+target/failsafe-reports/
+
+# Spring Tool Suite
+.springBeans
