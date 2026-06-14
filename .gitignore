@@ -44,4 +44,5 @@ target/surefire-reports/
 target/failsafe-reports/
 
 # Spring Tool Suite
-.springBeans
+.springBeansbin/
+target/
