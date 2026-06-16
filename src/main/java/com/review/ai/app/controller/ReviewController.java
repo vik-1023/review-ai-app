@@ -83,4 +83,10 @@ public class ReviewController {
 		return ResponseEntity.ok(count);
 	}
 
+	// NEW: Generate AI reply for existing review
+	@PostMapping("/{id}/generate-ai-reply")
+	public ResponseEntity<ReviewResponse> generateAiReply(@PathVariable Long id) {
+		ReviewResponse response = reviewService.generateAiReplyForReview(id);
+		return ResponseEntity.ok(response);
+	}
 }

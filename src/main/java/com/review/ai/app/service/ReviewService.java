@@ -22,5 +22,7 @@ public interface ReviewService {
 	List<ReviewResponse> getUnrepliedReviews();
 
 	Long getTotalReviewCount();
+	
+	ReviewResponse generateAiReplyForReview(Long id);
 
 }
